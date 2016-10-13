@@ -1831,3 +1831,24 @@ em.search-keyword {
   font-style: normal;
   color: #01579f;
 }
+
+/* add by sunqiang */
+blockquote {
+  background: #f9f9f9;
+  quotes: "\201C""\201D""\2018""\2019";
+  border-left: .2em solid color-border;
+  margin: 20px 0px;
+  padding: 0px 30px;
+  &:before{
+    content: none;
+  }
+  &:after{
+    content: none;
+  }
+}
+
+.heimu {
+  background-color: #252525 !important;
+  color: #252525 !important;
+  text-shadow: none !important;
+}

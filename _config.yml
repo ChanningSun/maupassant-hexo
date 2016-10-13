@@ -1,7 +1,7 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
 duoshuo: ## Your duoshuo_shortname, e.g. username
-disqus: ## Your disqus_shortname, e.g. username
-google_search: true ## Use Google search, true/false.
+disqus: sunqiangsblog ## Your disqus_shortname, e.g. username
+google_search: ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
@@ -17,12 +17,18 @@ menu:
   - page: home
     directory: .
     icon: fa-home
+  - page: diary
+    directory: diary/
+    icon: fa-book
   - page: archive
     directory: archives/
     icon: fa-archive
   - page: about
     directory: about/
     icon: fa-user
+  - page: guestbook
+    directory: guestbook/
+    icon: fa-comments
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -36,22 +42,20 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: 跨界的IT博客
+    url: http://www.leocook.org/
+  - title: 屠夫9441的博客
+    url: https://www.haomwei.com/
+  - title: James Pan's Blog
+    url: https://blog.jamespan.me/
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2010/09 - 统招进入天津大学计算机科学与技术学院学习
   - num: 2
-    word: 2014/11/29-XXX
+    word: 2014/06 - 毕业后留在天津，就职于天津华永无线科技有限公司，初级Android研发工程师，主要从事Android界面功能开发
   - num: 3
-    word: 2015/02/18-DDD
-  - num: 4
-    word: More
+    word: 2016/03 - 离开天津，开始北漂，就职于魔秀科技（北京）股份有限公司，中级Android研发工程师，主要从事Android基础功能组件开发
 
 # Static files
 js: js
