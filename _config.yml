@@ -17,18 +17,18 @@ menu:
   - page: home
     directory: .
     icon: fa-home
-  - page: diary
-    directory: diary/
-    icon: fa-book
   - page: archive
     directory: archives/
     icon: fa-archive
+  - page: diary
+    directory: diary/
+    icon: fa-heart
+  - page: favorite
+    directory: favorite/
+    icon: fa-book
   - page: about
     directory: about/
     icon: fa-user
-  - page: guestbook
-    directory: guestbook/
-    icon: fa-comments
   - page: rss
     directory: atom.xml
     icon: fa-rss
