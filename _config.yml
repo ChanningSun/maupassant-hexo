@@ -23,8 +23,8 @@ menu:
   - page: diary
     directory: diary/
     icon: fa-heart
-  - page: favorite
-    directory: favorite/
+  - page: books
+    directory: books/
     icon: fa-book
   - page: about
     directory: about/
