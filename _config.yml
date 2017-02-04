@@ -26,6 +26,9 @@ menu:
   - page: books
     directory: books/
     icon: fa-book
+  - page: wishlist
+    directory: wishlist/
+    icon: fa-list-ol
   - page: about
     directory: about/
     icon: fa-user
