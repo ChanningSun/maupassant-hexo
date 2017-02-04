@@ -23,9 +23,6 @@ menu:
   - page: diary
     directory: diary/
     icon: fa-heart
-  - page: books
-    directory: books/
-    icon: fa-book
   - page: wishlist
     directory: wishlist/
     icon: fa-list-ol
